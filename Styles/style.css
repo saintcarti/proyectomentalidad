@@ -8,16 +8,15 @@ body{
     background-color: #ede0d4;
 }
 .container{
-    background-color: #DDB892;
-    margin-top: 40px;
-    border-radius: 10px;
-    margin-bottom: 40px;
-    border: solid 5px #B08968;
+    background-color: #142157;
+    border-radius: 10px;;
+    margin:50px auto;
+    border: solid 3px black;
 }
 .container-2{
-    background-color: #9C6644;
+    background-color: white;
     border-radius: 10px;
-    border: solid 5px #B08968;
+    border: solid 2px black;
     margin-top: 25px;
     margin-left: 15px;
 }
@@ -26,7 +25,10 @@ body{
     border-radius: 10px;
     border: solid 5px #B08968;
     margin-top:-360px;
+    max-width: 700px;
+    width: 100%;
     margin-left: 550px;
+    overflow: scroll;
 }
 #Cargar{
     margin-top: -120px;
@@ -39,4 +41,18 @@ body{
     background-color: #B08968;
     color: white;
     border: solid 2px #7F5539;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #142157;
+    max-width: 700px;
+    margin: 50px auto;
+    border-radius: 10px;
+    border: solid 5px #B08968;
+}
+.titulo h1{
+    font-size: 40px;
+    color: white;
 }

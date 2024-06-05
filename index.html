@@ -10,24 +10,31 @@
     <title>Pagina Inicio</title>
 </head>
 <body>
+    <div class="titulo">
+        <h1>Pagina de control de acceso</h1>
+    </div>
     <div class="container" style="width:1500px; height: 520px;">
         <div class="container-2" style="width:500px; height: 360px;">
             
         </div>
-        <div class="container-3" style="width:540px; height: 460px;">
-            <table class="table table-success" style="border: solid 2px #9C6644;">
-                <tr>
-                    <td style="background-color: #DDB892;border-top-left-radius: 15px;  border: solid 2px #9C6644;  color: white; font-size: 13px;">Nombre completo</td>
-                    <td style="background-color: #DDB892; border: solid 2px #9C6644;  color: white; font-size: 13px;">Rut</td>
-                    <td style="background-color: #DDB892; border: solid 2px #9C6644;  color: white; font-size: 13px;">Carrera</td>
-                    <td style="background-color: #DDB892; border: solid 2px #9C6644;  color: white; font-size: 13px;">Hora Entrada</td>
-                    <td style="background-color: #DDB892; border: solid 2px #9C6644;  color: white; font-size: 13px;">Hora Salida</td>
-                    <td style="background-color: #DDB892; border-top-right-radius: 15px; border: solid 2px #9C6644;  color: white; font-size: 13px;">Numero de torniquete</td>
-                </tr>
+        <div class="container-3" style=" height: 460px;">
+            <table id="Alumnos" class="table table-success" style="border: solid 2px #9C6644;">
+                <thead>
+                    <tr>
+                        <th style="background-color: #DDB892; border-top-left-radius: 15px; border: solid 2px #9C6644; color: white; font-size: 13px;">Nombre completo</th>
+                        <th style="background-color: #DDB892; border: solid 2px #9C6644; color: white; font-size: 13px;">Rut</th>
+                        <th style="background-color: #DDB892; border: solid 2px #9C6644; color: white; font-size: 13px;">Carrera</th>
+                        <th style="background-color: #DDB892; border: solid 2px #9C6644; color: white; font-size: 13px;">Hora Entrada</th>
+                        <th style="background-color: #DDB892; border: solid 2px #9C6644; color: white; font-size: 13px;">Hora Salida</th>
+                        <th style="background-color: #DDB892; border-top-right-radius: 15px; border: solid 2px #9C6644; color: white; font-size: 13px;">Numero de torniquete</th>
+                    </tr>
+                </thead>
+                <tbody id="AlumnosBody">
+                </tbody>
             </table>
 
         </div>      
-        <button class="btn btn-primary" type="submit" name="Cargar" id="Cargar">Cargar Todos</button>   
+        <button class="btn btn-primary" type="button" name="Cargar" id="Cargar" onclick="mostrarAlumnos();">Cargar Todos</button>   
     </div>
     <script src="Js/jquery-3.7.1.js.js"></script>
     <script src="Js/script.js"></script>

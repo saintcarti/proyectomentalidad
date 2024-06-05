@@ -1,28 +1,23 @@
-$(document).ready(function() {
-    $("#Cargar").click(function() {
-      $.ajax({
-        url: "https://fake-store-api-2no73ornoa-uc.a.run.app/api/products/all",
-        method: "GET",
-        success: function(data) {
-          let tableRows = '';
-          data.forEach(function(producto) {
-            tableRows += `
-              <tr>
-                <td>${producto.name}</td>
-                <td>${producto.id}</td>
-                <td>${producto.category}</td>
-                <td>$${producto.price}</td>
-                <td>${producto.description}</td>
-                <td><img src="${producto.image}" alt="${producto.name}" width="50"></td>
-              </tr>
-            `;
-          });
-          $("table tbody").html(tableRows);
-        },
-        error: function(error) {
-          console.log("Error:", error);
-        }
-      });
-    });
-  });
-  
+function mostrarAlumnos() {
+  let url = "http://localhost:3300/Alumnos";
+  fetch(url)
+      .then(response => response.json())
+      .then(data => mostrarDatos(data))
+      .catch(error => console.log(error));
+
+  const mostrarDatos = (data) => {
+      console.log(data);
+      let body = "";
+      for (var i = 0; i < data.length; i++) {
+          body += `<tr>
+              <td class="table-success" style="background-color: white; border-top-left-radius: 15px; border-bottom-left-radius:15px; border: solid 2px #9C6644; color: black; font-size: 13px;">${data[i].Nombre_completo}</td>
+              <td class="table-success" style="background-color: white; border: solid 2px black; color: black; font-size: 13px;">${data[i].Rut}</td>
+              <td class="table-success" style="background-color: white; border: solid 2px #9C6644; color: black; font-size: 13px;">${data[i].Carrera}</td>
+              <td class="table-success" style="background-color: white; border: solid 2px #9C6644; color: black; font-size: 13px;">${data[i].Hora_entrada}</td>
+              <td class="table-success" style="background-color: white; border: solid 2px #9C6644; color: black; font-size: 13px;">${data[i].Hora_salida}</td>
+              <td class="table-success" style="background-color: white; border: solid 2px #9C6644; color: black; font-size: 13px;">${data[i].Numero_de_torniquete}</td>
+          </tr>`;
+      }
+      document.getElementById('AlumnosBody').innerHTML = body;
+  };
+}
