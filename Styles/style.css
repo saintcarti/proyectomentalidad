@@ -12,6 +12,8 @@ body{
     border-radius: 10px;;
     margin:50px auto;
     border: solid 3px black;
+    width: 100%;
+    
 }
 .container-2{
     background-color: white;
@@ -19,14 +21,15 @@ body{
     border: solid 2px black;
     margin-top: 25px;
     margin-left: 15px;
+    max-width: 100%;
 }
 .container-3    {
     background-color: white;
     border-radius: 10px;
     border: solid 3px black;
     margin-top:-430px;
-    max-width: 700px;
-    width: 100%;
+    max-width: 100%;
+    
     margin-left: 550px;
     overflow: scroll;
 }
@@ -81,4 +84,11 @@ input{
     width: 100%;
     margin-left: 35px;
     font-family: monospace;
+}
+@media screen and (min-width: 1336px) and (min-height: 768px) {
+    #table{
+        width: 100%;
+        overflow: auto;
+    }
+
 }
