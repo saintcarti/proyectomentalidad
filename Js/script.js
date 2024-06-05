@@ -10,12 +10,12 @@ function mostrarAlumnos() {
       let body = "";
       for (var i = 0; i < data.length; i++) {
           body += `<tr>
-              <td class="table-success" style="background-color: white; border-top-left-radius: 15px; border-bottom-left-radius:15px; border: solid 2px #9C6644; color: black; font-size: 13px;">${data[i].Nombre_completo}</td>
-              <td class="table-success" style="background-color: white; border: solid 2px black; color: black; font-size: 13px;">${data[i].Rut}</td>
-              <td class="table-success" style="background-color: white; border: solid 2px #9C6644; color: black; font-size: 13px;">${data[i].Carrera}</td>
-              <td class="table-success" style="background-color: white; border: solid 2px #9C6644; color: black; font-size: 13px;">${data[i].Hora_entrada}</td>
-              <td class="table-success" style="background-color: white; border: solid 2px #9C6644; color: black; font-size: 13px;">${data[i].Hora_salida}</td>
-              <td class="table-success" style="background-color: white; border: solid 2px #9C6644; color: black; font-size: 13px;">${data[i].Numero_de_torniquete}</td>
+              <td class="table-success" style="background-color: white; border-top-left-radius: 15px; border-bottom-left-radius:15px; border: solid 2px black; color: black; font-size: 11px;">${data[i].Nombre_completo}</td>
+              <td class="table-success" style="background-color: white; border: solid 2px black; color: black; font-size: 11px;">${data[i].Rut}</td>
+              <td class="table-success" style="background-color: white; border: solid 2px black; color: black; font-size: 11px;">${data[i].Carrera}</td>
+              <td class="table-success" style="background-color: white; border: solid 2px black; color: black; font-size: 11px;">${data[i].Hora_entrada}</td>
+              <td class="table-success" style="background-color: white; border: solid 2px black; color: black; font-size: 11px;">${data[i].Hora_salida}</td>
+              <td class="table-success" style="background-color: white; border: solid 2px black; color: black; font-size: 11px;">${data[i].Numero_de_torniquete}</td>
           </tr>`;
       }
       document.getElementById('AlumnosBody').innerHTML = body;

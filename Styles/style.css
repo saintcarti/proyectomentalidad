@@ -21,26 +21,28 @@ body{
     margin-left: 15px;
 }
 .container-3    {
-    background-color: #9C6644;
+    background-color: white;
     border-radius: 10px;
-    border: solid 5px #B08968;
-    margin-top:-360px;
+    border: solid 3px black;
+    margin-top:-430px;
     max-width: 700px;
     width: 100%;
     margin-left: 550px;
     overflow: scroll;
 }
 #Cargar{
-    margin-top: -120px;
+    margin-top: -30px;
     margin-left: 190px;
-    background-color: #7F5539;
-    border: solid 2px #B08968;
+    background-color: white;
+    border: solid 2px black;
+    color: black;
+    font-size: 15px;
 }
 
 #Cargar:hover{
-    background-color: #B08968;
-    color: white;
-    border: solid 2px #7F5539;
+    background-color: rgba(#142157, 0.5);
+    color: black;
+    border: solid 2px black;
 }
 .titulo{
     display: flex;
@@ -50,9 +52,29 @@ body{
     max-width: 700px;
     margin: 50px auto;
     border-radius: 10px;
-    border: solid 5px #B08968;
+    border: solid 5px black;
 }
 .titulo h1{
     font-size: 40px;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.icono{
+    justify-content: start;
+    margin-top: -150px;
+    margin-left: 50px;
+    border: solid 3px black;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 15px;
+}
+label{
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+input{
+    max-width: 400px;
+    width: 100%;
+    margin-left: 35px;
 }

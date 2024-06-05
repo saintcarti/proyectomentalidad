@@ -3,7 +3,7 @@
         {
             "Nombre_completo": "Mauricio Andres Gatica Navarro",
             "Rut": "21.025.561-3",
-            "Carrera": "ingeniería En Informatica",
+            "Carrera": "Ingeniería En Informatica",
             "Hora_entrada": "11:30",
             "Hora_salida": "13:00",
             "Numero_de_torniquete": "1"
@@ -11,15 +11,15 @@
         {
             "Nombre_completo": "Nicolas Eduardo Antonio Vasquez Carillanca",
             "Rut": "21.376.422-5",
-            "Carrera": "ingeniería En Informatica",
-            "Hora_entrada": "1:40",
+            "Carrera": "Ingeniería En Informatica",
+            "Hora_entrada": "13:40",
             "Hora_salida": "18:23",
             "Numero_de_torniquete": "3"
         },
         {
             "Nombre_completo": "Xavier Ignacio Liberona Cartes",
             "Rut": "21.325.774-9",
-            "Carrera": "ingeniería En Informatica",
+            "Carrera": "Ingeniería En Informatica",
             "Hora_entrada": "8:45",
             "Hora_salida": "14:00",
             "Numero_de_torniquete": "4"
@@ -27,15 +27,15 @@
         {
             "Nombre_completo": "Bastian Hernan Berrios Cruz",
             "Rut": "21.783.534-8",
-            "Carrera": "ingeniería En Informatica",
-            "Hora_entrada": "16:27",
-            "Hora_salida": "21:56",
+            "Carrera": "Ingeniería En Informatica",
+            "Hora_entrada": "16:30",
+            "Hora_salida": "21:30",
             "Numero_de_torniquete": "2"           
         },
         {
             "Nombre_completo": "Jose Luis Perez De La Cruz",
             "Rut": "21.278.898-0",
-            "Carrera": "ingeniería En Electronica",
+            "Carrera": "Ingeniería En Electronica",
             "Hora_entrada": "12:30",
             "Hora_salida": "14:20",
             "Numero_de_torniquete": "1"          
@@ -43,15 +43,15 @@
         {
             "Nombre_completo": "Juaquin David Osses Penela",
             "Rut": "21.367.809-4",
-            "Carrera": "ingeniería En Informatica",
+            "Carrera": "Ingeniería En Informatica",
             "Hora_entrada": "11:30",
-            "Hora_salida": "6",
+            "Hora_salida": "18:00",
             "Numero_de_torniquete": "1"          
         },
         {
             "Nombre_completo": "Sebastian Henrique Flores Alvarez",
             "Rut": "21.262.643-0",
-            "Carrera": "ingeniería En Informatica",
+            "Carrera": "Ingeniería En Informatica",
             "Hora_entrada": "10:20",
             "Hora_salida": "16:00",
             "Numero_de_torniquete": "6"          
@@ -59,7 +59,7 @@
         {
             "Nombre_completo": "Sergio Felipe Moreno Cepeda",
             "Rut": "21.025.613-K",
-            "Carrera": "ingeniería En Mecanica",
+            "Carrera": "Ingeniería En Mecanica",
             "Hora_entrada": "15:30",
             "Hora_salida": "17:00",
             "Numero_de_torniquete": "3"           

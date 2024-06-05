@@ -10,23 +10,42 @@
     <title>Pagina Inicio</title>
 </head>
 <body>
+
+
     <div class="titulo">
         <h1>Pagina de control de acceso</h1>
     </div>
+
+    <div class="icono">
+        <img src="img/duoclogo.png" alt="Logo Duoc" style="width: 150px; height: 150px;">
+    </div>
     <div class="container" style="width:1500px; height: 520px;">
-        <div class="container-2" style="width:500px; height: 360px;">
-            
+        <div class="container-2" style="width:500px; height: 430px;">
+            <form >
+                <label for="Rut" class="form-label">Rut</label>
+                <input type="text" class="form-control" id="Rut" name="Rut" placeholder="Ingrese Rut">
+                <label for="Nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Ingrese Nombre">
+                <label for="Carrera" class="form-label">Carrera</label>
+                <input type="text" class="form-control" id="Carrera" name="Carrera" placeholder="Ingrese Carrera">
+                <label for="HoraEntrada" class="form-label">Hora Entrada</label>
+                <input type="time" class="form-control" id="HoraEntrada" name="HoraEntrada" placeholder="Ingrese Hora Entrada">
+                <label for="HoraSalida" class="form-label">Hora Salida</label>
+                <input type="time" class="form-control" id="HoraSalida" name="HoraSalida" placeholder="Ingrese Hora Salida">
+                <label for="Torniquete" class="form-label">Numero de Torniquete</label>
+                <input type="text" class="form-control" id="Torniquete" name="Torniquete" placeholder="Ingrese Numero de Torniquete">
+            </form>
         </div>
         <div class="container-3" style=" height: 460px;">
             <table id="Alumnos" class="table table-success" style="border: solid 2px #9C6644;">
                 <thead>
                     <tr>
-                        <th style="background-color: #DDB892; border-top-left-radius: 15px; border: solid 2px #9C6644; color: white; font-size: 13px;">Nombre completo</th>
-                        <th style="background-color: #DDB892; border: solid 2px #9C6644; color: white; font-size: 13px;">Rut</th>
-                        <th style="background-color: #DDB892; border: solid 2px #9C6644; color: white; font-size: 13px;">Carrera</th>
-                        <th style="background-color: #DDB892; border: solid 2px #9C6644; color: white; font-size: 13px;">Hora Entrada</th>
-                        <th style="background-color: #DDB892; border: solid 2px #9C6644; color: white; font-size: 13px;">Hora Salida</th>
-                        <th style="background-color: #DDB892; border-top-right-radius: 15px; border: solid 2px #9C6644; color: white; font-size: 13px;">Numero de torniquete</th>
+                        <th style="background-color: white; border-top-left-radius: 15px; border: solid 2px black; color: black; font-size: 13px;">Nombre completo</th>
+                        <th style="background-color: white; border: solid 2px black; color: black; font-size: 13px;">Rut</th>
+                        <th style="background-color: white; border: solid 2px black; color: black; font-size: 13px;">Carrera</th>
+                        <th style="background-color: white; border: solid 2px black; color: black; font-size: 13px;">Hora Entrada</th>
+                        <th style="background-color: white; border: solid 2px black; color: black; font-size: 13px;">Hora Salida</th>
+                        <th style="background-color: white; border-top-right-radius: 15px; border-bottom-right-radius:15px ; border: solid 2px black; color:black; font-size: 13px;">Numero de torniquete</th>
                     </tr>
                 </thead>
                 <tbody id="AlumnosBody">
